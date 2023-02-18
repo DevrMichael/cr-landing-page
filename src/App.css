@@ -188,12 +188,3 @@ button:hover{
   color: pink;
   font-size: 1.3em;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
