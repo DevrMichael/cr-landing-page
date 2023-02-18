@@ -1,0 +1,194 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+header {
+  position: absolute;
+  min-height: 10vh;
+  display: flex;
+  font-size: 1em;
+  padding-left: 70px;
+  color: black;
+}
+
+footer > div:nth-child(2) {
+  display: flex;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.gradient-border {
+  padding: 50px;
+  height: 50%;
+  --borderWidth: 3px;
+  background: rgba(126, 123, 123, 0.529);
+  position: relative;
+  border-radius: var(--borderWidth);
+}
+.gradient-border:after {
+  content: "";
+  position: absolute;
+  top: calc(-1 * var(--borderWidth));
+  left: calc(-1 * var(--borderWidth));
+  height: calc(100% + var(--borderWidth) * 2);
+  width: calc(100% + var(--borderWidth) * 2);
+  background: linear-gradient(
+    60deg,
+    #f79533,
+    #f37055,
+    #ef4e7b,
+    #a166ab,
+    #5073b8,
+    #1098ad,
+    #07b39b,
+    #6fba82
+  );
+  border-radius: calc(2 * var(--borderWidth));
+  z-index: -1;
+  animation: animatedgradient 3s ease alternate infinite;
+  background-size: 300% 300%;
+}
+
+@keyframes animatedgradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.first-div,
+.sixth-div {
+  height: 100vh;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-div h1,
+.sixth-div h1 {
+  font-size: 3.5em;
+}
+
+.second-div__content h1,
+.third-div h1,
+.fourth-div h1,
+.fifth-div h1 {
+  font-size: 3em;
+}
+
+.first-div button,
+.sixth-div button {
+  padding: 20px 50px;
+  border-radius: 9999px;
+  color: white;
+  background-color: blue;
+  border: none;
+  cursor: pointer;
+}
+
+.second-div__content,
+.fourth-div {
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.third-div,
+.fifth-div {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.first-div {
+  background: url(../src/assets/dreamstime_m_118286471.jpg);
+  background-size: cover;
+  background-repeat: none;
+  color: white;
+}
+
+.second-div{
+  display: flex;
+  flex-direction: row;
+}
+
+.second-div__image {
+  background: url(../src/assets/dreamstime_s_115186384.jpg);
+  background-size: cover;
+  margin-top: 180px;
+  margin-left: 30px;
+  width: 500px;
+  height: 400px;
+}
+
+.third-div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.third-div__image {
+  background: url(../src/assets/dreamstime_xl_128892326.jpg);
+  background-size: cover;
+  margin-top: 80px;
+  width: 400px;
+  height: 400px;
+}
+
+.fourth-div__image {
+  background: url(../src/assets/dreamstime_s_114514580.jpg);
+  background-size: cover;
+  margin-top: 180px;
+  margin-left: 30px;
+  width: 500px;
+  height: 400px;
+}
+
+.fifth-div {
+  background: url(../src/assets/dreamstime_m_110993911.jpg);
+  background-size: cover;
+  color: white;
+}
+
+.sixth-div { 
+  background: url(../src/assets/dreamstime_m_132108711.jpg);
+  background-size: cover;
+  color: white;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

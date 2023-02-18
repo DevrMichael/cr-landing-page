@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title": "Get Hired in Under a Year",
+        "content": "",
+        "image": ""
+    },
+    {
+        "id": 2,
+        "title": "Basics of Frontend Development",
+        "content": "Step-by-step walkthrough of all you need to know",
+        "image": ""
+    },
+    {
+        "id": 3,
+        "title": "Lessons, videos and quizzes",
+        "content": "Learn in a varied way that makes everything you learn stick",
+        "image": ""
+    },
+    {
+        "id": 4,
+        "title": "All Devices Supported",
+        "content": "All lessons are customized and optimized for computer, mobile or your iPad.",
+        "image": ""
+    },
+    {
+        "id": 5,
+        "title": "Get a Certification on Completion",
+        "content": "Complete the full course to get a certification to post on your socials",
+        "image": ""
+    },
+    {
+        "id": 6,
+        "title": "Make Your Dreams of Becoming a Developer a Reality",
+        "content": "",
+        "image": ""
+    }
+]
