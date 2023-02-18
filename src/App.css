@@ -128,7 +128,7 @@ footer > div:nth-child(2) {
 }
 
 .first-div {
-  background: url(../src/assets/dreamstime_m_118286471.jpg);
+  background: url(../src/assets/hero_image.jpg);
   background-size: cover;
   background-repeat: none;
   color: white;
@@ -140,7 +140,7 @@ footer > div:nth-child(2) {
 }
 
 .second-div__image {
-  background: url(../src/assets/dreamstime_s_115186384.jpg);
+  background: url(../src/assets/fundamentals_image.jpg);
   background-size: cover;
   margin-top: 180px;
   margin-left: 30px;
@@ -156,7 +156,7 @@ footer > div:nth-child(2) {
 }
 
 .third-div__image {
-  background: url(../src/assets/dreamstime_xl_128892326.jpg);
+  background: url(../src/assets/course_content_image.jpg);
   background-size: cover;
   margin-top: 80px;
   width: 400px;
@@ -164,7 +164,7 @@ footer > div:nth-child(2) {
 }
 
 .fourth-div__image {
-  background: url(../src/assets/dreamstime_s_114514580.jpg);
+  background: url(../src/assets/devices_image.jpg);
   background-size: cover;
   margin-top: 180px;
   margin-left: 30px;
@@ -173,13 +173,13 @@ footer > div:nth-child(2) {
 }
 
 .fifth-div {
-  background: url(../src/assets/dreamstime_m_110993911.jpg);
+  background: url(../src/assets/certification_image.jpg);
   background-size: cover;
   color: white;
 }
 
 .sixth-div { 
-  background: url(../src/assets/dreamstime_m_132108711.jpg);
+  background: url(../src/assets/call_to_action_image.jpg);
   background-size: cover;
   color: white;
 }
