@@ -27,6 +27,14 @@ p {
   font-size: 1.1em;
 }
 
+.section-divider__image {
+    background: url(../src/assets/section_divider_image.jpg);
+  background-size: contain;
+  margin-right: 30px;
+  width: 100%;
+  height: 200px;
+}
+
 .footer-links {
   display: flex;
   justify-content: center;

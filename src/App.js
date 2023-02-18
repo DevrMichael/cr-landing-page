@@ -20,6 +20,7 @@ function App() {
         </div>
         <div className="small-div second-div__image"></div>
       </div>
+    <div className="section-divider__image"></div>
       <div className="flex content-header third-div">
         <div className="large-div third-div__image"></div>
         <div className="small-div">
@@ -27,6 +28,7 @@ function App() {
           <p>{data[2].content}</p>
         </div>
       </div>
+      <div className="section-divider__image"></div>
       <div className="flex content-header fourth-div">
         <div className="large-div">
           <h1>{data[3].title}</h1>
