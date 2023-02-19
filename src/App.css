@@ -1,16 +1,7 @@
+                                                            /* GENERAL STYLES */
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 header {
@@ -27,28 +18,9 @@ p {
   font-size: 1.1em;
 }
 
-.section-divider__image {
-    background: url(../src/assets/section_divider_image.jpg);
-  background-size: contain;
-  width: 100%;
-  height: 120px;
-}
-
-.footer-links {
-  display: flex;
-  justify-content: center;
-  margin: 2px;
-}
-
-.footer-links a, p {
-  margin: 10px;
-  margin-bottom: 30px;
-  text-decoration: none;
-  color: black;
-}
-
-.App-link {
-  color: #61dafb;
+.highlighted-text {
+  color: pink;
+  font-size: 1.3em;
 }
 
 .main-container {
@@ -62,6 +34,19 @@ p {
   padding: 50px;
   background: rgba(126, 123, 123, 0.529);
   border-radius: 8px;
+}
+
+.footer-links {
+display: flex;
+justify-content: center;
+margin: 2px;
+}
+
+.footer-links a, p {
+margin: 10px;
+margin-bottom: 30px;
+text-decoration: none;
+color: black;
 }
 
 .flex {
@@ -78,6 +63,8 @@ p {
 .content-header h1 {
   font-size: 3em;
 }
+
+                                                            /* BUTTONS */
 
 button {
   display: inline-block;
@@ -106,19 +93,7 @@ button:hover{
       background-color: #21e065;
 }
 
-
-.fifth-div {
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-right: 20px;
-}
-
-.fifth-div p {
-  color: white;
-}
+                                                            /* DIVS */
 
 .first-div {
   background: url(../src/assets/hero_image.jpg);
@@ -144,16 +119,16 @@ button:hover{
   height: 100vh;
 }
 
-.fourth-div {
-  height: 100vh;
-}
-
 .third-div__image {
   background: url(../src/assets/course_content_image.jpg);
   background-size: cover;
   margin-left: 30px;
   width: 500px;
   height: 400px;
+}
+
+.fourth-div {
+  height: 100vh;
 }
 
 .fourth-div__image {
@@ -168,6 +143,16 @@ button:hover{
   background: url(../src/assets/certification_image.jpg);
   background-size: cover;
   color: white;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.fifth-div p {
+  color: white;
 }
 
 .sixth-div { 
@@ -176,15 +161,17 @@ button:hover{
   color: white;
 }
 
+.section-divider__image {
+  background: url(../src/assets/section_divider_image.jpg);
+background-size: contain;
+width: 100%;
+height: 120px;
+}
+
 .large-div {
   width: 55%;
 }
 
 .small-div {
   width: 40%;
-}
-
-.highlighted-text {
-  color: pink;
-  font-size: 1.3em;
 }
