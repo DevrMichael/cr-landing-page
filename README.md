@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+![cr-course-landing](https://github.com/DevrMichael/cr-landing-page/assets/88589247/1d2d6ac8-632b-4122-9125-39b335defa2b)
+
+
 ## Available Scripts
 
 In the project directory, you can run:
